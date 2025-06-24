@@ -5,6 +5,7 @@ import Dashboard from "./pages/Dashboard";
 import { useAuth } from "./context/AuthContext";
 import Navbar from "./components/layout/Navbar";
 
+
 function App() {
   const { user } = useAuth();
 
